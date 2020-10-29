@@ -73,7 +73,7 @@ int LinearSearch(int key, City arrayCity[], int size)
             break;
 
         }
-    } return result; //  ここを実装する
+    } return result; 
 }
 
 int BinarySearch(int key, City arrayCity[], int left, int right)
@@ -98,7 +98,7 @@ int BinarySearch(int key, City arrayCity[], int left, int right)
        {
            right = pos - 1;
        }
-    }//  ここを実装する
+    }
 
 
 }
