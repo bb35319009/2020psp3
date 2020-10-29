@@ -67,17 +67,22 @@ int LinearSearch(int key, City arrayCity[], int size)
     int pos;
     int result = -1;
     
+
     for(pos=0; pos<size; pos++){
+
         if(key ==  arrayCity[pos].id){
             result = pos;
             break;
 
         }
+
     } return result; 
+
 }
 
 int BinarySearch(int key, City arrayCity[], int left, int right)
 {
+
      int pos = 0;
    int result;
 
