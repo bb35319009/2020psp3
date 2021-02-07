@@ -3,7 +3,7 @@
 
 #define DEBUG
 
-#define ALPHABET_LEN    255
+#define ALPHABET_LEN   255
 
 char StrOriginal[] = "On a dark deseart highway, cool wind in my hair.";
 char StrKey[] = "wind";
