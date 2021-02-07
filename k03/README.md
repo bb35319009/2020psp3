@@ -35,14 +35,14 @@
 なし
 
 ## ソースコードの説明
-
+14.15.37~49 構造体の長さやずらし量等を求める
+16~29　一行ずつずらし全てがあう文字列を探す
+53~73　BM法を用いて文字列を探す
 
 
 ## 出力結果
-
-```
-
-```
+Force Search. Find keyword at:wind in my hair. 
+BM Search. Find keyword at:wind in my hair.
 
 ## 修正履歴
 
