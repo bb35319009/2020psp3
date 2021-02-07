@@ -98,13 +98,40 @@ int AdjacencyMatrix[MAX_STATIONS][MAX_STATIONS] = {
 
 ## ソースコードの説明
 
-
+113　visitedを初期化
+117　出発点をpushする
+119　スタックから取り出すものが無くなるまで繰り返す
+121　スタックから取り出し、行ったことがあるかチェックする
+122　行ったことがある場合を行ったことにする
+126　その場からいける場所をスタックに入れる
+134　到達したか確認する
+206　visitedを初期化
+210　出発点をQにいれる
+212　Qから取り出すものが無くなるまでくりかえす
+214　Qから取り出し、行ったことがあるかチェックする
+215　行ったことがない場合を行ったことにする
+219　その場所からいける場所をQにいれる
+227　到達したか確認する
 
 ## 出力結果
 
-```
-
-```
+(DepthFirst)赤迫 is visited
+(DepthFirst)長崎大学前 is visited  
+(DepthFirst)長崎駅前 is visited    
+(DepthFirst)新地中華街 is visited  
+(DepthFirst)石橋 is visited        
+(DepthFirst)崇福寺 is visited      
+(DepthFirst)市民会館 is visited    
+(DepthFirst)蛍茶屋 is visited      
+(BreadthFirst)赤迫 is visited      
+(BreadthFirst)長崎大学前 is visited
+(BreadthFirst)長崎駅前 is visited  
+(BreadthFirst)新地中華街 is visited
+(BreadthFirst)石橋 is visited      
+(BreadthFirst)崇福寺 is visited    
+(BreadthFirst)市民会館 is visited  
+(BreadthFirst)蛍茶屋 is visited    
+Time Required: 7
 
 ## 修正履歴
 
